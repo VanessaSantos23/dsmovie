@@ -5,8 +5,8 @@
 --text-gray:#4A4A4A;
 --color-primary :#4D41C0;
 --white:#fff;
---text-light-gray:#aaa
-
+--text-light-gray:#aaa;
+--star-yellow:#FFBB3A;
 }
 
 * {
@@ -35,38 +35,30 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
-
 nav h1 {
     font-size: 24px;
     font-weight: 700;
 }
-
 nav a {
     font-size: 12px;
     font-weight: 400;
-
 }
-
-
 a, a:hover {
     text-decoration: none;
     color: unset;
 }
-
 .dsmovie-contact-container {
     display: flex;
     align-items: center;
 }
 .dsmovie-contact-container {
     margin-right: 10px;
-
 }
 #dsmovie-card-list {
     padding: 40px 0;
 }
 .dsmovie-card {
     width: 100%;
-    
 }
 .dsmovie-card img {
     width: 100%;
@@ -80,13 +72,33 @@ a, a:hover {
     align-items: center;
     justify-content: space-between;
     border-radius: 0 0 8px 8px;
-    min-height: 150px;
+    height: 220px;
 }
 .dsmovie-card-description h3 {
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 25px;
+    text-align: center;
 }
+.dsmovie-card-description-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dsmovie-card-description-bottom h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--star-yellow);
+}
+.dsmovie-card-description-bottom img {
+width: 22px;
+}
+.dsmovie-card-description-bottom p {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--text-light-gray);
+    margin-bottom: 10px;
+    }
 .dsmovie-btn,.dsmovie-btn:hover{
     width: 180px;
     height: 40px;
